@@ -100,3 +100,4 @@ Default endpoints:
 - Architecture and algorithms: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - REST + WebSocket contract and JSON examples: [API_DOCUMENTATION.md](./API_DOCUMENTATION.md)
 # chat-fast
+# chat-fast
