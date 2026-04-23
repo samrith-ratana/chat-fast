@@ -1,0 +1,152 @@
+{
+  "saved_at": "2026-04-22T16:52:24.345Z",
+  "conversations": [
+    {
+      "conversation_id": "3d57bd16-a63f-4394-85ec-291df42d30ac",
+      "ordered_ids": [],
+      "next_sequence": 1,
+      "stream_heads": []
+    },
+    {
+      "conversation_id": "room-launchpad",
+      "ordered_ids": [],
+      "next_sequence": 1,
+      "stream_heads": []
+    },
+    {
+      "conversation_id": "5239c42c-52dc-4d04-b8d0-18730930833e",
+      "ordered_ids": [],
+      "next_sequence": 1,
+      "stream_heads": []
+    },
+    {
+      "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+      "ordered_ids": [
+        "fc946a2f4ca68d5d47455bec23e0c88ff04a9bb8e121d568a1924eb50c10ed6f",
+        "48fa2e82eda4e12c989f17a00bb5e1bddbfb0aa0f15bf6c7cefb4b1f0e728f14",
+        "a8b666411b81f5e6880b51f9b576b33e65a1bad1c5b1f3f923201e80b77809f3"
+      ],
+      "next_sequence": 4,
+      "stream_heads": []
+    },
+    {
+      "conversation_id": "4d7319cb-ccc8-4ff7-a332-6705ffb0edd5",
+      "ordered_ids": [],
+      "next_sequence": 1,
+      "stream_heads": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "fc946a2f4ca68d5d47455bec23e0c88ff04a9bb8e121d568a1924eb50c10ed6f",
+      "type": "base",
+      "content": "",
+      "resolved_content": "",
+      "base_id": null,
+      "delta": "",
+      "timestamp": 1776876689547,
+      "sender_id": "admin@techsolutions.com",
+      "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+      "sequence": 1,
+      "client_tag": "84f590ff-fc3e-49f1-8bfc-1a0b3a36d39b",
+      "stream_id": "",
+      "chunk_index": 0,
+      "total_chunks": 1,
+      "is_final": true,
+      "attachments": [
+        {
+          "file_id": "50838379-4b12-4244-84fe-263ce4f10188",
+          "filename": "desktop.zip",
+          "mime_type": "application/x-zip-compressed",
+          "size_bytes": 990756769,
+          "preview": {
+            "type": "binary",
+            "inline_url": "/api/files/50838379-4b12-4244-84fe-263ce4f10188/content?token=b468407f72f960f6d6f4c8e088a2a167",
+            "text_excerpt": ""
+          }
+        }
+      ],
+      "delivery": {
+        "sent_at": 1776876689567,
+        "delivered_to": {
+          "admin@techsolutions.com": 1776876689567,
+          "ken@gmail.com": 1776876689772
+        },
+        "read_by": {
+          "admin@techsolutions.com": 1776876689567,
+          "ken@gmail.com": 1776876689821
+        }
+      }
+    },
+    {
+      "id": "48fa2e82eda4e12c989f17a00bb5e1bddbfb0aa0f15bf6c7cefb4b1f0e728f14",
+      "type": "base",
+      "content": "Use",
+      "resolved_content": "Use",
+      "base_id": null,
+      "delta": "",
+      "timestamp": 1776876725725,
+      "sender_id": "ken@gmail.com",
+      "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+      "sequence": 2,
+      "client_tag": "b78f4d6e-d48c-40db-b1fd-a8c52b0587f8",
+      "stream_id": "",
+      "chunk_index": 0,
+      "total_chunks": 1,
+      "is_final": true,
+      "attachments": [],
+      "delivery": {
+        "sent_at": 1776876744236,
+        "delivered_to": {
+          "ken@gmail.com": 1776876744236,
+          "admin@techsolutions.com": 1776876744254
+        },
+        "read_by": {
+          "ken@gmail.com": 1776876744236,
+          "admin@techsolutions.com": 1776876744263
+        }
+      }
+    },
+    {
+      "id": "a8b666411b81f5e6880b51f9b576b33e65a1bad1c5b1f3f923201e80b77809f3",
+      "type": "base",
+      "content": "",
+      "resolved_content": "",
+      "base_id": null,
+      "delta": "",
+      "timestamp": 1776876742695,
+      "sender_id": "ken@gmail.com",
+      "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+      "sequence": 3,
+      "client_tag": "f75b0972-22fd-4768-843e-557f5955d9fc",
+      "stream_id": "",
+      "chunk_index": 0,
+      "total_chunks": 1,
+      "is_final": true,
+      "attachments": [
+        {
+          "file_id": "6b70d4cd-dd18-426a-9e78-0c22fa9dbbbd",
+          "filename": "desktop.zip",
+          "mime_type": "application/zip",
+          "size_bytes": 990756769,
+          "preview": {
+            "type": "binary",
+            "inline_url": "/api/files/6b70d4cd-dd18-426a-9e78-0c22fa9dbbbd/content?token=e1c519f671c57180de87616501ff8025",
+            "text_excerpt": ""
+          }
+        }
+      ],
+      "delivery": {
+        "sent_at": 1776876744237,
+        "delivered_to": {
+          "ken@gmail.com": 1776876744237,
+          "admin@techsolutions.com": 1776876744254
+        },
+        "read_by": {
+          "ken@gmail.com": 1776876744237,
+          "admin@techsolutions.com": 1776876744263
+        }
+      }
+    }
+  ]
+}

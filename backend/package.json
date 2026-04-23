@@ -1,0 +1,22 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "High-performance chat service backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:api": "node api.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "diff-match-patch": "^1.0.5",
+    "express": "^4.18.2",
+    "multer": "^2.1.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

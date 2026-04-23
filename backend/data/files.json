@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "50838379-4b12-4244-84fe-263ce4f10188",
+    "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+    "message_id": "fc946a2f4ca68d5d47455bec23e0c88ff04a9bb8e121d568a1924eb50c10ed6f",
+    "uploaded_by": "admin@techsolutions.com",
+    "original_filename": "desktop.zip",
+    "safe_filename": "desktop.zip",
+    "mime_type": "application/x-zip-compressed",
+    "size_bytes": 990756769,
+    "storage_path": "C:\\Users\\Samri\\Desktop\\chat\\backend\\storage\\files\\1776876653443-desktop.zip",
+    "storage_type": "local",
+    "processing_status": "ready",
+    "error": null,
+    "preview": {
+      "type": "binary",
+      "inline_url": "/api/files/50838379-4b12-4244-84fe-263ce4f10188/content?token=b468407f72f960f6d6f4c8e088a2a167",
+      "text_excerpt": ""
+    },
+    "variants": [],
+    "created_at": 1776876669407,
+    "expires_at": null,
+    "access_token": "b468407f72f960f6d6f4c8e088a2a167"
+  },
+  {
+    "_id": "6b70d4cd-dd18-426a-9e78-0c22fa9dbbbd",
+    "conversation_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+    "message_id": "a8b666411b81f5e6880b51f9b576b33e65a1bad1c5b1f3f923201e80b77809f3",
+    "uploaded_by": "ken@gmail.com",
+    "original_filename": "desktop.zip",
+    "safe_filename": "desktop.zip",
+    "mime_type": "application/zip",
+    "size_bytes": 990756769,
+    "storage_path": "C:\\Users\\Samri\\Desktop\\chat\\backend\\storage\\files\\1776876692225-desktop.zip",
+    "storage_type": "local",
+    "processing_status": "ready",
+    "error": null,
+    "preview": {
+      "type": "binary",
+      "inline_url": "/api/files/6b70d4cd-dd18-426a-9e78-0c22fa9dbbbd/content?token=e1c519f671c57180de87616501ff8025",
+      "text_excerpt": ""
+    },
+    "variants": [],
+    "created_at": 1776876736494,
+    "expires_at": null,
+    "access_token": "e1c519f671c57180de87616501ff8025"
+  }
+]

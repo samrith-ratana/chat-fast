@@ -1,0 +1,118 @@
+[
+  {
+    "_id": "edge-bot@system.local",
+    "email": "edge-bot@system.local",
+    "username": "edge-bot",
+    "avatar_url": "https://ui-avatars.com/api/?name=Edge+Bot&background=0f172a&color=ffffff",
+    "password_hash": null,
+    "status": "online",
+    "status_message": "System assistant",
+    "created_at": 1776876473098,
+    "last_seen": 1776876473098,
+    "preferences": {
+      "theme": "auto",
+      "notifications_enabled": false,
+      "email_notifications": false,
+      "blocked_users": []
+    },
+    "conversations": [
+      "room-launchpad",
+      "3d57bd16-a63f-4394-85ec-291df42d30ac",
+      "5239c42c-52dc-4d04-b8d0-18730930833e"
+    ],
+    "friends": [],
+    "friend_requests": {
+      "sent": [],
+      "received": []
+    }
+  },
+  {
+    "_id": "ops-bot@system.local",
+    "email": "ops-bot@system.local",
+    "username": "ops-bot",
+    "avatar_url": "https://ui-avatars.com/api/?name=Ops+Bot&background=14532d&color=ffffff",
+    "password_hash": null,
+    "status": "online",
+    "status_message": "System assistant",
+    "created_at": 1776876473098,
+    "last_seen": 1776876473098,
+    "preferences": {
+      "theme": "auto",
+      "notifications_enabled": false,
+      "email_notifications": false,
+      "blocked_users": []
+    },
+    "conversations": [
+      "room-launchpad",
+      "4d7319cb-ccc8-4ff7-a332-6705ffb0edd5"
+    ],
+    "friends": [],
+    "friend_requests": {
+      "sent": [],
+      "received": []
+    }
+  },
+  {
+    "_id": "ken@gmail.com",
+    "email": "ken@gmail.com",
+    "username": "Gobs",
+    "password_hash": {
+      "algorithm": "bcrypt",
+      "hash": "$2b$12$OyBlWe7IB61wODlaxgL4rumvRdQoA6Zwg1Ux1f0qzMeS6rg9LYJUC",
+      "rounds": 12
+    },
+    "avatar_url": "https://ui-avatars.com/api/?name=Gobs&background=1e293b&color=ffffff",
+    "status": "online",
+    "status_message": "",
+    "created_at": 1776876530013,
+    "last_seen": 1776876880316,
+    "preferences": {
+      "theme": "auto",
+      "notifications_enabled": true,
+      "email_notifications": false,
+      "blocked_users": []
+    },
+    "conversations": [
+      "room-launchpad",
+      "3d57bd16-a63f-4394-85ec-291df42d30ac",
+      "5277f0ee-8ca9-4a54-9593-76075f27d126"
+    ],
+    "friends": [],
+    "friend_requests": {
+      "sent": [],
+      "received": []
+    }
+  },
+  {
+    "_id": "admin@techsolutions.com",
+    "email": "admin@techsolutions.com",
+    "username": "sam",
+    "password_hash": {
+      "algorithm": "bcrypt",
+      "hash": "$2b$12$nDRIPIj65ZPlZ2ozwSyBUet6C8cGTgdoHppttZOnXRK1cSoGlTa86",
+      "rounds": 12
+    },
+    "avatar_url": "https://ui-avatars.com/api/?name=sam&background=1e293b&color=ffffff",
+    "status": "offline",
+    "status_message": "",
+    "created_at": 1776876592583,
+    "last_seen": 1776876892771,
+    "preferences": {
+      "theme": "auto",
+      "notifications_enabled": true,
+      "email_notifications": false,
+      "blocked_users": []
+    },
+    "conversations": [
+      "room-launchpad",
+      "5239c42c-52dc-4d04-b8d0-18730930833e",
+      "5277f0ee-8ca9-4a54-9593-76075f27d126",
+      "4d7319cb-ccc8-4ff7-a332-6705ffb0edd5"
+    ],
+    "friends": [],
+    "friend_requests": {
+      "sent": [],
+      "received": []
+    }
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "_id": "room-launchpad",
+    "type": "group",
+    "name": "Bandwidth Launchpad",
+    "description": "Default operations room for realtime, low-bandwidth chat.",
+    "avatar_url": "",
+    "members": [
+      {
+        "user_id": "edge-bot@system.local",
+        "joined_at": 1776876473098,
+        "role": "owner",
+        "muted": false
+      },
+      {
+        "user_id": "ops-bot@system.local",
+        "joined_at": 1776876473098,
+        "role": "member",
+        "muted": false
+      },
+      {
+        "user_id": "ken@gmail.com",
+        "joined_at": 1776876530013,
+        "role": "member",
+        "muted": false
+      },
+      {
+        "user_id": "admin@techsolutions.com",
+        "joined_at": 1776876592583,
+        "role": "member",
+        "muted": false
+      }
+    ],
+    "created_at": 1776876473098,
+    "created_by": "edge-bot@system.local",
+    "last_message_id": "",
+    "last_message_at": 1776876473098,
+    "message_count": 0,
+    "pinned_messages": [],
+    "archived": false,
+    "encryption": "none",
+    "slug": "launchpad"
+  },
+  {
+    "_id": "3d57bd16-a63f-4394-85ec-291df42d30ac",
+    "type": "direct",
+    "name": "Edge Bot",
+    "description": "",
+    "avatar_url": "",
+    "members": [
+      {
+        "user_id": "edge-bot@system.local",
+        "joined_at": 1776876530013,
+        "role": "owner",
+        "muted": false
+      },
+      {
+        "user_id": "ken@gmail.com",
+        "joined_at": 1776876530013,
+        "role": "member",
+        "muted": false
+      }
+    ],
+    "created_at": 1776876530013,
+    "created_by": "edge-bot@system.local",
+    "last_message_id": "",
+    "last_message_at": 1776876530013,
+    "message_count": 0,
+    "pinned_messages": [],
+    "archived": false,
+    "encryption": "none"
+  },
+  {
+    "_id": "5239c42c-52dc-4d04-b8d0-18730930833e",
+    "type": "direct",
+    "name": "Edge Bot",
+    "description": "",
+    "avatar_url": "",
+    "members": [
+      {
+        "user_id": "edge-bot@system.local",
+        "joined_at": 1776876592583,
+        "role": "owner",
+        "muted": false
+      },
+      {
+        "user_id": "admin@techsolutions.com",
+        "joined_at": 1776876592583,
+        "role": "member",
+        "muted": false
+      }
+    ],
+    "created_at": 1776876592583,
+    "created_by": "edge-bot@system.local",
+    "last_message_id": "",
+    "last_message_at": 1776876592583,
+    "message_count": 0,
+    "pinned_messages": [],
+    "archived": false,
+    "encryption": "none"
+  },
+  {
+    "_id": "5277f0ee-8ca9-4a54-9593-76075f27d126",
+    "type": "direct",
+    "name": "",
+    "description": "",
+    "avatar_url": "",
+    "members": [
+      {
+        "user_id": "ken@gmail.com",
+        "joined_at": 1776876601302,
+        "role": "owner",
+        "muted": false
+      },
+      {
+        "user_id": "admin@techsolutions.com",
+        "joined_at": 1776876601302,
+        "role": "member",
+        "muted": false
+      }
+    ],
+    "created_at": 1776876601302,
+    "created_by": "ken@gmail.com",
+    "last_message_id": "a8b666411b81f5e6880b51f9b576b33e65a1bad1c5b1f3f923201e80b77809f3",
+    "last_message_at": 1776876742695,
+    "message_count": 3,
+    "pinned_messages": [],
+    "archived": false,
+    "encryption": "none"
+  },
+  {
+    "_id": "4d7319cb-ccc8-4ff7-a332-6705ffb0edd5",
+    "type": "direct",
+    "name": "",
+    "description": "",
+    "avatar_url": "",
+    "members": [
+      {
+        "user_id": "admin@techsolutions.com",
+        "joined_at": 1776876641064,
+        "role": "owner",
+        "muted": false
+      },
+      {
+        "user_id": "ops-bot@system.local",
+        "joined_at": 1776876641064,
+        "role": "member",
+        "muted": false
+      }
+    ],
+    "created_at": 1776876641064,
+    "created_by": "admin@techsolutions.com",
+    "last_message_id": "",
+    "last_message_at": 1776876641064,
+    "message_count": 0,
+    "pinned_messages": [],
+    "archived": false,
+    "encryption": "none"
+  }
+]
