@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --page-ink: #14213d;
+  --page-bg: #f7f4ec;
+  --page-bg-deep: #dae8df;
+  --panel: rgba(255, 255, 255, 0.82);
+  --panel-strong: rgba(255, 255, 255, 0.92);
+  --line: rgba(20, 33, 61, 0.1);
+  --brand: #0f766e;
+  --brand-deep: #113b44;
+  --accent: #c97a38;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(15, 118, 110, 0.18), transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(201, 122, 56, 0.16), transparent 22%),
+    radial-gradient(circle at bottom right, rgba(17, 59, 68, 0.14), transparent 24%),
+    linear-gradient(145deg, var(--page-bg) 0%, #fffcf6 42%, var(--page-bg-deep) 100%);
+  background-attachment: fixed;
+}
+
+body {
+  color: var(--page-ink);
+  font-family: var(--font-space-grotesk), sans-serif;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.08)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(20, 33, 61, 0.018) 0,
+      rgba(20, 33, 61, 0.018) 1px,
+      transparent 1px,
+      transparent 72px
+    );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent 92%);
+}
+
+pre,
+code,
+.font-mono {
+  font-family: var(--font-plex-mono), monospace;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.28);
+}
+
+.chat-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.55) transparent;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.55);
+  border-radius: 999px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.surface-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: 0 30px 90px rgba(20, 33, 61, 0.12);
+  backdrop-filter: blur(22px);
+}
+
+.surface-card-strong {
+  background: var(--panel-strong);
+  border: 1px solid rgba(20, 33, 61, 0.12);
+  box-shadow: 0 24px 64px rgba(20, 33, 61, 0.12);
+  backdrop-filter: blur(20px);
+}
